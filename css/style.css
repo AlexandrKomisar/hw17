@@ -1,0 +1,508 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway:wght@300;700&display=swap");
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.app-white {
+  background-image: url(../img/img.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1001px;
+  font-family: "Raleway", sans-serif;
+}
+
+.app-white__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.app-white__header-logo {
+  font-size: 50px;
+  font-family: "Pacifico", cursive;
+}
+
+.app-white__header-menu-list-item {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  display: inline;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.dropdown {
+  position: relative;
+  display: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.dropbtn {
+  border: none;
+  background: none;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: #00b1b173;
+  right: -25px;
+  min-width: 66px;
+  font-size: 14px;
+  border: none;
+  border-radius: 10px;
+}
+
+.dropdown-content a {
+  color: #ffffff;
+  padding: 5px 20px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #4f5560;
+  color: #ffffff;
+  text-decoration: overline 3px #ff6033;
+  border-radius: 5px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.app-white__header-menu-list-item-link {
+  text-decoration: none;
+  color: #262626;
+}
+
+.app-white__header-menu-list-item-link:hover {
+  text-decoration: overline 3px #ff6033;
+}
+
+.app-white__content {
+  padding: 250px 0 0 0;
+  width: 400px;
+  height: 300px;
+}
+
+.app-white__content-title {
+  font-weight: 700;
+  font-size: 60px;
+}
+
+.app-white__content-text {
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.app-white__content-button {
+  background: #ff6033;
+  border: none;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 300;
+  width: 200px;
+  height: 55px;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.app-about {
+  background: #00b1b1;
+}
+.app-about__content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.app-about__title {
+  font-size: 90px;
+  color: #ffffff;
+}
+
+.app-about__text {
+  width: 500px;
+  color: #ffffff;
+  line-height: 1.5;
+}
+
+.app-services {
+  background: #70bfff;
+  font-family: "Raleway", sans-serif;
+}
+
+.app-services__content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 50px 0 50px 0;
+}
+
+.app-services__list-item {
+  width: 400px;
+  height: 100px;
+  background: #ffffff;
+  border: none;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  color: rgb(38, 38, 38);
+  font-weight: bold;
+  position: relative;
+  list-style-type: none;
+  text-align: center;
+  margin: 15px;
+  line-height: 5;
+}
+
+.app-services__list-item-icon {
+  position: absolute;
+  right: 10px;
+  top: 20px;
+}
+
+.app-services__tomato {
+  position: relative;
+}
+
+.app-services__title {
+  color: #ffffff;
+  font-size: 70px;
+  font-weight: 700;
+  position: absolute;
+  top: 200px;
+}
+
+.app-gallery {
+  background: #ffe92f;
+  text-align: center;
+  padding: 15px;
+  font-family: "Raleway", sans-serif;
+}
+
+.app-gallery__title {
+  font-size: 90px;
+  font-weight: 700;
+}
+
+.app-gallery__text {
+  font-size: 17px;
+  font-weight: 300;
+}
+
+.app-gallery__content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.app-gallery__content-box-img {
+  padding: 5px;
+}
+
+.app-gallery__btn {
+  width: 200px;
+  height: 50px;
+  background: #5585a2;
+  font-size: 20px;
+  font-weight: 300;
+  border: none;
+  color: white;
+}
+
+.app-subscribe {
+  font-family: "Raleway", sans-serif;
+  background-image: url(../img/subscribe.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+.app-subscribe__content-title {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.app-subscribe__content-text {
+  font-size: 17px;
+  font-weight: 300;
+  width: 50%;
+}
+
+.app-subscribe__content-form-item {
+  font-size: 10px;
+  height: 54px;
+  width: 500px;
+  padding: 0;
+}
+
+.app-subscribe__content-btn {
+  background: #96b92c;
+  width: 170px;
+  height: 54px;
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  border: none;
+}
+
+.app-blog {
+  background-color: #b07cf7;
+  font-family: "Raleway", sans-serif;
+}
+
+.app-blog__header-title {
+  font-weight: 700;
+  font-size: 90px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.app-blog__text {
+  font-weight: 300;
+  font-size: 17px;
+  color: #ffffff;
+  margin: 0 50px 50px 50px;
+  text-align: center;
+}
+
+.app-blog__flex-parent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.app-blog__flex-parent-box1 {
+  width: 370px;
+  height: 310px;
+  color: white;
+  background: url(../img/kivi.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  box-shadow: 0px 2px 3px 0px #000000c4;
+  flex-wrap: wrap;
+  margin: 15px;
+}
+
+.app-blog__flex-parent-box2 {
+  width: 370px;
+  height: 310px;
+  color: white;
+  background: url(../img/gor.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  box-shadow: 0px 2px 3px 0px #000000c4;
+  flex-wrap: wrap;
+  margin: 15px;
+}
+
+.app-blog__flex-parent-box3 {
+  width: 370px;
+  height: 310px;
+  color: white;
+  background: url(../img/mal.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  box-shadow: 0px 2px 3px 0px #000000c4;
+  flex-wrap: wrap;
+  margin: 15px;
+}
+
+.app-blog__flex-parent-box-date {
+  font-size: 25px;
+  font-weight: 700;
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+  background: rgb(38, 38, 38);
+  opacity: 0.6;
+  text-align: center;
+  margin: 30px;
+}
+
+.app-blog__flex-parent-box-text {
+  font-size: 17px;
+  margin: 130px 10px 0 10px;
+}
+
+.app-blog__flex-parent-box-author {
+  font-size: 15px;
+  margin: 19px;
+}
+
+.app-blog__btn {
+  text-align: center;
+  padding: 50px 0 120px 0;
+}
+
+.app-blog__btn-item {
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  width: 200px;
+  height: 55px;
+  background-color: #f72b3b;
+  box-shadow: 0px 2px 5px 0px #00000080;
+}
+
+.app-contact {
+  background-image: url(../img/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: -20px;
+  font-family: "Raleway", sans-serif;
+}
+
+.app-contact__title {
+  padding-top: 170px;
+  text-align: center;
+}
+
+.app-contact__title-item {
+  font-size: 90px;
+  font-weight: bold;
+}
+
+.app-contact__text {
+  font-size: 17px;
+  font-weight: 300;
+}
+
+.app-contact__form {
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.app-contact__form-item {
+  border: none;
+  background: #7fe1e1;
+  width: 400px;
+  height: 50px;
+}
+
+.app-contact__form-item:hover,
+.app-contact__form-item:focus {
+  background: #00c4c4;
+  outline: none;
+  border-left: #355b82 solid 5px;
+}
+
+.app-contact__comment-item {
+  border: none;
+  background: #7fe1e1;
+  width: 400px;
+  height: 250px;
+}
+
+.app-contact__comment-item:hover,
+.app-contact__comment-item:focus {
+  background: #00c4c4;
+  outline: none;
+  border-left: #355b82 solid 5px;
+}
+
+.app-contact__info {
+  font-size: 17px;
+}
+
+.app-contact__info-text {
+  font-weight: 300;
+}
+
+.app-contact__info-text-bolt {
+  font-weight: 700;
+}
+.app-footer {
+  background: #262626;
+  color: #b9b9b9;
+  font-size: 25px;
+  padding: 35px 0;
+}
+
+.app-footer__content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.app-footer__content-red {
+  color: #ff2b58;
+}
+
+.app-footer__content-logo {
+  font-family: "Pacifico", cursive;
+}
+
+@media screen and (max-width: 1280px) {
+  .container {
+    width: 960px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .container {
+    width: 720px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    width: 540px;
+  }
+  .dropdown {
+    display: block;
+  }
+
+  .app-white__header-menu,
+  .app-about__content-img {
+    display: none;
+  }
+  .app-services__tomato {
+    display: none;
+  }
+  .app-services__list-item,
+  .app-about__text,
+  .app-subscribe__content-form-item,
+  .app-contact__form-item,
+  .app-contact__comment-item {
+    width: 280px;
+  }
+  .app-contact__title {
+    padding-top: 50px;
+  }
+  .app-contact__title-item {
+    font-size: 45px;
+  }
+  .app-gallery__content-box-img {
+    width: 80%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .container {
+    width: 320px;
+    padding: 0 5px;
+  }
+
+  .app-white__content-text {
+    width: 280px;
+  }
+
+  .blog__box1,
+  .blog__box2,
+  .blog__box3 {
+    width: 280px;
+    margin: 2px;
+  }
+}
